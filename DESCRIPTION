@@ -1,0 +1,26 @@
+Package: norquant
+Title: What the Package Does (one line, title case)
+Version: 0.0.0.9000
+Authors@R: person("Lars", "Nygaard", email = "lrs.ngrd@gmail.com", role = c("aut", "cre"))
+Description: Reading, ranking, and generating stock reports/html
+Depends:
+    R (>= 3.3.3),
+    PerformanceAnalytics (>= 1.4.3541),
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+    magrittr,
+    tidyquant,
+    tidyverse,
+    DT,
+    reshape2,
+    rmarkdown,
+    gtools,
+    rjson,
+    dplyr,
+    tibble
+RoxygenNote: 6.0.1.9000
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr

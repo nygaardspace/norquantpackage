@@ -1,0 +1,18 @@
+---
+title: "Norquant Ranking Matrix"
+author: "L. Nygaard"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Norquant Ranking Matrix}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This package generates the Norquant ranking matrix. The Norquant ranking matrix lists all factor rankings for each stock in the universe. The first column is a list with stock TICKERS. Every columns represents a variable needed for calculation or a factor. 
+
+Factors are only added when sufficiently evidence is availabe that they give a premium return on investments. [references ...] 
+
+## Data input
+
+Stock info and price data is imported from Infront (https://www.infrontfinance.com/). 
